@@ -1,0 +1,20 @@
+{
+  "name": "link-to",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./styles/tailwind.css -o ./styles/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.1.4"
+  },
+  "dependencies": {
+    "react-parallax-tilt": "^1.7.43",
+    "vanilla-tilt": "^1.7.2"
+  }
+}
